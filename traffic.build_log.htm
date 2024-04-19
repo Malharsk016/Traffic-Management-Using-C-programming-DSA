@@ -1,0 +1,33 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Asus\Desktop\01fe21bee016\DSA PRACTICE\structural_enquiry\traffic.uvproj
+Project File Date:  09/08/2023
+
+<h2>Output:</h2>
+Build target 'Target 1'
+linking...
+Program Size: Code=4816 RO-data=16 RW-data=0 ZI-data=1160  
+FromELF: creating hex file...
+".\traffichex.axf" - 0 Error(s), 0 Warning(s).
+</pre>
+</body>
+</html>
+ 0 Error(s), 0 Warning(s).
+.
+Target not created
+20: identifier "IOPIN0" is undefined
+  if((IOPIN0 & (1<<22))==0){
+trafficlight.c(17): error:  #20: identifier "IOSET0" is undefined
+  IOSET0|=(1<<19);
+trafficlight.c(18): error:  #20: identifier "IOCLR0" is undefined
+  IOCLR0|=(1<<7);
+trafficlight.c(79): error:  #65: expected a ";"
+  IOCLR0|=(1<<18);
+trafficlight.c(359): error:  #20: identifier "IOCLR0" is undefined
+  IOCLR0|=(1<<0);
+trafficlight.c: 0 warnings, 7 errors
+".\traffic.axf" - 7 Error(s), 0 Warning(s).
+Target not created

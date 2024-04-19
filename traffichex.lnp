@@ -1,0 +1,7 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\trafficlight.o"
+--library_type=microlib --strict --scatter ".\traffichex.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\traffichex.map" -o .\traffichex.axf
